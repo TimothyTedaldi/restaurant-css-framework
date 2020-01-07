@@ -1,0 +1,44 @@
+h1 {
+  -webkit-text-decoration: underline dashed;
+          text-decoration: underline dashed;
+  line-height: 200px;
+  color: #c26005;
+  width: 200px;
+  font-size: 50px;
+  font-family: 'Courgette', cursive;
+}
+
+h2 {
+  font-family: 'Nunito', sans-serif;
+  color: white;
+  text-align: center;
+  -webkit-text-decoration: underline dashed;
+          text-decoration: underline dashed;
+}
+
+.background {
+  background-image: url(/webroot/images/bg-bw.jpg);
+  background-position: center;
+  height: 400px;
+}
+
+.container {
+  background-image: url(/webroot/images/section-sawadee.jpg);
+  height: 1500px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.carte {
+  height: 200px;
+}
+
+ul {
+  color: red;
+}
+
+li {
+  color: red;
+}
+/*# sourceMappingURL=carte.css.map */
