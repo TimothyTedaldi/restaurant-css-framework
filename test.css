@@ -44,7 +44,7 @@ body{
 }
 
 .this-is-a-simple-background{
-    background-image: url(img/bouffe.png);
+    background-image: url(https://raw.githubusercontent.com/TimothyTedaldi/restaurant-css-framework/master/img/bouffe.png);
     padding: 12%;
     background-repeat: no-repeat;
     background-size: cover ;
