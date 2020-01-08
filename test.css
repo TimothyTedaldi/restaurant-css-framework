@@ -10,12 +10,8 @@ body{
     background-color: rgb(40, 87, 109);
 }
 
-.interligne{
-    background-image: url(img/bg-bw.jpg);
-    background-size: fill;
-    background-position: center;
-    color: white;
-}
+
+
 .main{
     background-color: rgb(255, 172, 49);
 }
@@ -53,4 +49,10 @@ body{
     background-repeat: no-repeat;
     background-size: cover ;
     background-position: center;
+}
+.interligne{
+    background-image: url(https://raw.githubusercontent.com/TimothyTedaldi/restaurant-css-framework/master/img/bg-bw.jpg);
+    background-size: fill;
+    background-position: center;
+    color: white;
 }
