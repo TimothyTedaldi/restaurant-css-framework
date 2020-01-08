@@ -10,8 +10,6 @@ body{
     background-color: rgb(40, 87, 109);
 }
 
-
-
 .main{
     background-color: rgb(255, 172, 49);
 }
@@ -55,4 +53,16 @@ body{
     background-size: fill;
     background-position: center;
     color: white;
+}
+footer{
+    background-color: #1f1f1f;
+    color: white;
+    background-size: cover;
+    letter-spacing: 4px;
+    line-height: 10px;
+}
+footer a:hover{
+    padding:1%;
+    text-decoration: none;
+    background-color: black;
 }
