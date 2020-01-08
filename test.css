@@ -11,7 +11,7 @@ body{
 }
 
 .interligne{
-    background-image: url(/img/bg-bw.jpg);
+    background-image: url("img/bg-bw.jpg");
     background-size: fill;
     background-position: center;
     color: white;
@@ -48,7 +48,7 @@ body{
 }
 
 .this-is-a-simple-background{
-    background-image: url("/img/bouffe.png");
+    background-image: url("img/bouffe.png");
     padding: 12%;
     background-repeat: no-repeat;
     background-size: cover ;
