@@ -1,3 +1,47 @@
+<div class="fluid-container ml-0 mr-0 mb-5">
+            <nav class="navbar navbar-expand-lg navbar-dark justify-content-center-flex fixed-top">
+                <a class="navbar-brand" href="#">
+                    <img src="img/dogger3-0.png" width="60" height="40" class="align-top" alt="">
+                    <strong>Dogger</strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto ml-auto mt-2 mt-lg-0 nav-head testbar   ">
+                    <li class="nav-item active">
+                    <a class="nav-link navbar-text" href="#">Home Sweet Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item nav-link navbar-text" href="#">Notre carte</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item nav-link navbar-text" href="#">Nos photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item nav-link navbar-text" href="#">Nos restaurants</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item nav-link navbar-text" href="#">Nous contacter</a>
+                    </li>
+                </ul>
+                </div>
+            </nav>
+        </div>
+    
+<!-- CSS Header-->    
+
+.navbar{
+    background-color: #1f1f1f;
+    font-size: 24px;
+    padding-bottom: 1%; 
+}
+
+
+
+<!-- FOOTER -->
+
 <div class="fluid-container col-12 ml-0 mr-0">
             <footer class="page-footer font-small">
                 <div class="container-fluid">
@@ -41,3 +85,19 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </body>
 </html>
+
+
+
+<!-- css footer -->
+footer{
+    background-color: #1f1f1f;
+    color: white;
+    background-size: cover;
+    letter-spacing: 4px;
+    line-height: 10px;
+}
+footer a:hover{
+    padding:1%;
+    text-decoration: none;
+    background-color: black;
+}
