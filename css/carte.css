@@ -1,9 +1,16 @@
+body {
+  background-color: #ffac31;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 h1 {
-  -webkit-text-decoration: underline dashed;
-          text-decoration: underline dashed;
   line-height: 200px;
   color: #c26005;
-  width: 200px;
+  width: 400px;
+  -webkit-text-decoration: underline dashed;
+          text-decoration: underline dashed;
   font-size: 50px;
   font-family: 'Courgette', cursive;
 }
@@ -14,17 +21,16 @@ h2 {
   text-align: center;
   -webkit-text-decoration: underline dashed;
           text-decoration: underline dashed;
+  padding: 20px 0 20px 0;
 }
 
 .background {
-  background-image: url(/webroot/images/bg-bw.jpg);
+  background-image: url(../webroot/images/bg-bw.jpg);
   background-position: center;
-  height: 400px;
 }
 
 .container {
-  background-image: url(/webroot/images/section-sawadee.jpg);
-  height: 1500px;
+  background-image: url(../webroot/images/section-sawadee.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -35,10 +41,62 @@ h2 {
 }
 
 ul {
-  color: red;
+  color: white;
+  font-size: 20px;
 }
 
 li {
-  color: red;
+  font-size: 16px;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+}
+
+.badge {
+  font-weight: bold;
+  border: 1px solid white;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  position: absolute;
+  right: 10%;
+}
+
+.designLi {
+  padding-bottom: 15px;
+}
+
+.titreLi {
+  font-weight: bold;
+  list-style-type: none;
+}
+
+@media all and (max-width: 320px) {
+  h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .badge {
+    display: none;
+  }
+}
+
+footer {
+  background-color: #1f1f1f;
+  color: white;
+  background-size: cover;
+  letter-spacing: 4px;
+  line-height: 10px;
+}
+
+footer a:hover {
+  padding: 1%;
+  text-decoration: none;
+  background-color: black;
+}
+
+.navbar {
+  background-color: #1f1f1f;
+  font-size: 24px;
+  padding-bottom: 1%;
 }
 /*# sourceMappingURL=carte.css.map */
