@@ -1,0 +1,17 @@
+body {
+  background-color: tomato;
+  font-family: 'nunito',sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Courgette', cursive;
+}
+
+.btn {
+  background-color: tomato;
+}
+
+.btn:hover {
+  background-color: royalblue;
+}
+/*# sourceMappingURL=contact.css.map */
