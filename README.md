@@ -2,7 +2,7 @@
 
 ## What's in it ?
 
-This repository contains the ressources to build the [Website]("https://timothytedaldi.github.io/restaurant-css-framework/index.html") 
+This repository contains the ressources to build the [Website](https://timothytedaldi.github.io/restaurant-css-framework/index.html) 
 composed of a total of 8 pages
 
 ## How was the work dispatch ?
