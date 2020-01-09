@@ -33,3 +33,6 @@ footer a:hover{
     font-size: 24px;
     padding-bottom: 1%; 
 }
+body{
+    background-color:rgb(255, 172, 49);
+}

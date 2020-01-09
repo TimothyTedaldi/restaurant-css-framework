@@ -8,7 +8,7 @@ h1, h2, h3, h4 {
 }
 
 .btn {
-  background-color: tomato;
+  background-color: rgb(40, 87, 109);
 }
 
 .btn:hover {
@@ -31,6 +31,13 @@ footer{
   color: white;
 }
 .my-font-awesome :hover{
-  color: rgb(52, 52, 245);
+    color: rgb(52, 52, 245);
 }
+.random-name-for-background{
+     background-color: rgb(40, 87, 109);
+}
+
+.a-color-i-dislike-need-to-be-here{
+  color: rgb(40, 87, 109);
+} 
 /*# sourceMappingURL=contact.css.map */
