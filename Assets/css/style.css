@@ -71,3 +71,10 @@ footer a:hover{
   .my-font-awesome :hover{
     color: rgb(52, 52, 245);
   }
+
+  @media all and (max-width:990px){
+   
+    .hiddenImg{
+        display: none;
+    }
+  }
