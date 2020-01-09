@@ -62,7 +62,12 @@ footer{
     line-height: 10px;
 }
 footer a:hover{
-    padding:1%;
     text-decoration: none;
-    background-color: black;
+    color: white;
 }
+.my-font-awesome{
+    color: white;
+  }
+  .my-font-awesome :hover{
+    color: rgb(52, 52, 245);
+  }
