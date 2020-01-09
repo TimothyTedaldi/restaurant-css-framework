@@ -36,3 +36,13 @@ footer a:hover{
 body{
     background-color:rgb(255, 172, 49);
 }
+
+.myBackground{
+    background-image: url(../../img/bg-bw.jpg);
+    color: white;
+    font-size: 24px;
+}
+.panel-body ul{
+    list-style-type: none;
+    padding-top: 50px;
+}
