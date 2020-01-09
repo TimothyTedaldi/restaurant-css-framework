@@ -25,12 +25,12 @@ h2 {
 }
 
 .background {
-  background-image: url(../webroot/images/bg-bw.jpg);
+  background-image: url(../../img/bg-bw.jpg);
   background-position: center;
 }
 
 .container {
-  background-image: url(../webroot/images/section-sawadee.jpg);
+  background-image: url(../../img/section-sawadee.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
