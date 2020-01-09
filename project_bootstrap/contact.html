@@ -6,60 +6,77 @@
          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
          <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
          <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
          <link rel="stylesheet" type="text/css" href="contact.css">
-         <style>
-         body{
-               font-family: 'nunito',sans-serif;}
-h1, h2, h3, h4, h5, h6 {
-            font-family: 'Courgette', cursive;
-         }
-         label{
-            color:white;
-         }
-         </style>
    </head>
-   <body class="bg-alert">
-      
-      <header class="bg-white p-0 border-bottom">
-         <div class="container bg-white w-100 ">
-         <img src="img/dogger3-0.png" style="height: 100px" class="d-block mx-auto" />
-         </div>
-      
+   <body>
 
+      <div class="fluid-container ml-0 mr-0 mb-5">
+         <nav class="navbar navbar-expand-lg navbar-dark bg-dark justify-content-center-flex fixed-top">
+            <a class="navbar-brand" href="#">
+               <img src="img/dogger3-0.png" width="60" height="40" class="align-top" alt="">
+               <strong>Dogger</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+         
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+               <ul class="navbar-nav mr-auto ml-auto mt-2 mt-lg-0 nav-head testbar   ">
+                  <li class="nav-item active">
+                  <a class="nav-link navbar-text" href="#">Home Sweet Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-item nav-link navbar-text" href="#">Notre carte</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-item nav-link navbar-text" href="#">Nos photos</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-item nav-link navbar-text" href="#">Nos restaurants</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-item nav-link navbar-text" href="#">Nous contacter</a>
+                  </li>
+               </ul>
+            </div>
+         </nav>
+      </div>
 
-         <a href="">
-            <section class="bg-dark p-3 text-white text-center">
-            dooger, the best food for a good boy.
-            </section>
-         </a>
-      </header>
+      <h1 class="mb-5 text-center pt-5">contactez <b class="text-danger">nous</b></h1>
 
+      <!--form-->
 
-         <h1 class="mb-5 text-center pt-4">contactez <b class="text-danger">nous</b></h1>
+      <div class="container m-5 mx-auto">
+         <form>
+            <div class="row">
+               <div class="col-xl-8 col-md-12 border rounded shadow-lg bg-dark text-white">
+                  <div class="row">
 
-         <div class="container m-5">
-            <form>
-               <div class="row">
-                  <div class="col-8 border rounded bg-dark">
-                     <div class="row">
+                     <!--first-name-->
 
-                        <div class="col-6 ">
-                           <div class="form-group">
-                              <label>Prénom</label>
-                              <input type="text" name="prenom" placeholder="Saisissez votre prénom" class="form-control" />
-                           </div>
-                        </div>
-
-                        <div class="col-6 ">
-                           <div class="form-group">
-                              <label>nom</label>
-                              <input type="text" name="nom" placeholder="Saisissez votre nom" class="form-control" />
-                           </div>
+                     <div class="col-md-6 col-xs-12">
+                        <div class="form-group mt-3">
+                           <label>Prénom</label>
+                           <input type="text" name="prenom" placeholder="Saisissez votre prénom" class="form-control" />
                         </div>
                      </div>
 
+                     <!--second-name-->
+
+                     <div class="col-md-6 col-xs-12 ">
+                        <div class="form-group mt-3">
+                           <label>nom</label>
+                           <input type="text" name="nom" placeholder="Saisissez votre nom" class="form-control" />
+                        </div>
+                     </div>
+
+                  </div>
+
+                  <!--email-->
+
                      <div class="row">
-                        <div class="col-12">
+                        <div class="col-xl-12">
                            <div class="form-group">
                               <label>email</label>
                               <div class="input-group">
@@ -71,6 +88,8 @@ h1, h2, h3, h4, h5, h6 {
                            </div>
                         </div>
                      </div>
+
+                     <!--questions-->
 
                      <div class="row">
                         <div class="col-12">
@@ -87,6 +106,23 @@ h1, h2, h3, h4, h5, h6 {
                         </div>
                      </div>
 
+                     <!--restaurant choice-->
+
+                     <div class="row">
+                        <div class="col-12">
+                           <div class="form-group">
+                              <label>choix du restaurant</label>
+                              <select class="form-control">
+                                 <option value="readonly">- Choix du restaurant -</option>
+                                 <option value="Charleroi">Charleroi</option>
+                                 <option value="Mariembourg">Mariembourg</option>
+                              </select>
+                           </div>
+                        </div>
+                     </div>
+
+                     <!--message--> 
+
                      <div class="row">
                         <div class="col-12">
                            <div class="form-group">
@@ -94,28 +130,41 @@ h1, h2, h3, h4, h5, h6 {
                               <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
                            </div>
                         </div>
-                     </div>  
+                     </div> 
+                     
+                     <!--submited-->
+
+                     <a href="#" class="btn text-white my-3 btn-lg active" type="submit"><span class="fa fa-envelope"></span> Envoyer</a>
                   </div>
 
-                  <div class="col-3 offset-1 border rounded bg-dark text-white">
-                     <div class="row">
-                        <div class="col-12">
-                           <p class="my-3  text-center"><h2 class="border-bottom text-center pb-3 px-3 mb-4">Adresse dooger<h2>
-                        </div>
+                  <!--restaurant contact adress-->
 
-                        <div class="col-12">
-                           <p class="my-3 text-center">dooger mariembourg,<br> 15 rue de la pomme d'or 6555 MARIEMBOURG</p>
-                        </div>
-
-                        <div class="col-12">
-                           <p class="my-3 text-center">dooger Charleroi,<br> 1 rue de la Montagne<br>6000 CHARLEROI</p>
-                        </div>
+               <div class="col-xl-3 offset-1 col-md-12  mx-auto border rounded shadow-lg bg-dark text-white">
+                  <div class="row text-center">
+                     <div class="col-12">
+                        <h2 class="text-center bg-danger py-5 mb-4">Adresse dogger<h2>
                      </div>
-                  </div>
-            </form>
-         </div>
 
+                     <!--dogger mariembourg-->
 
+                     <div class="col-12 my-5">
+                        <h3 class="">DOGGER<br>MARIEMBOURG</h3>
+                        <p class="text-center border-bottom pb-5">15 rue de la pomme d'or<br> 6555 Mariembourg</p>
+                     </div>
+
+                     <!--dogger charleroi-->
+
+                     <div class="col-12 my-2 mb-3">
+                        <h3 class="">DOGGER<br>Charleroi</h3>
+                        <p class="text-center">1 rue de La Montagne<br>6000 Charleroi</p>
+                     </div>
+                  </div>                  
+               </div> 
+
+            </div>   
+         </form>
+      </div>
+      <div class="container-fluid bg-dark">ok google</div>
          
          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
