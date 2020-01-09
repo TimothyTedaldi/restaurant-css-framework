@@ -1,0 +1,68 @@
+h1{
+    font-family:"Courgette", cursive;
+
+}
+
+h2, ul, strong{
+    font-family: "Nunito", sans-serif;
+}
+body{
+    background-color: rgb(40, 87, 109);
+}
+
+.main{
+    background-color: rgb(255, 172, 49);
+}
+
+.jumbotron{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: rgb(255, 172, 49);
+}
+.my-panel-news{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.panel-heading, .panel-body{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.navbar{
+    background-color: #1f1f1f;
+    font-size: 24px;
+    padding-bottom: 1%; 
+}
+
+.h3{
+    letter-spacing: 4px;
+    line-height: 28px;
+}
+
+.this-is-a-simple-background{
+    background-image: url(https://raw.githubusercontent.com/TimothyTedaldi/restaurant-css-framework/master/img/bouffe.png);
+    padding: 12%;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    background-position: center;
+}
+.interligne{
+    background-image: url(https://raw.githubusercontent.com/TimothyTedaldi/restaurant-css-framework/master/img/bg-bw.jpg);
+    background-size: fill;
+    background-position: center;
+    color: white;
+}
+footer{
+    background-color: #1f1f1f;
+    color: white;
+    background-size: cover;
+    letter-spacing: 4px;
+    line-height: 10px;
+}
+footer a:hover{
+    padding:1%;
+    text-decoration: none;
+    background-color: black;
+}
