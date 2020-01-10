@@ -5,6 +5,15 @@
 This repository contains the ressources to build the [Website](https://timothytedaldi.github.io/restaurant-css-framework/index.html) 
 composed of a total of 8 pages
 
+## Mapping
+
+![lighthouse validation](https://github.com/TimothyTedaldi/tim-berners-lee/image/lightousevalidated.png "lighthouse validation")
+![lighthouse validation](https://github.com/TimothyTedaldi/tim-berners-lee/image/lightousevalidated.png "lighthouse validation")
+![lighthouse validation](https://github.com/TimothyTedaldi/tim-berners-lee/image/lightousevalidated.png "lighthouse validation")
+![lighthouse validation](https://github.com/TimothyTedaldi/tim-berners-lee/image/lightousevalidated.png "lighthouse validation")
+![lighthouse validation](https://github.com/TimothyTedaldi/tim-berners-lee/image/lightousevalidated.png "lighthouse validation")
+
+
 ## How was the work dispatch ?
 
 Pierre did Photos, Cartes and Restos with Timothy, Samuel worked on Contact and fixed the footer, Timothy realised the Accueil, header and tried to make the footer. We worked together to clean the work.
