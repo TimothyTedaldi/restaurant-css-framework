@@ -7,7 +7,7 @@ composed of a total of 8 pages
 
 ## Mapping
 
-![lighthouse validation](https://github.com/TimothyTedaldi/tim-berners-lee/image/lightousevalidated.png "lighthouse validation")
+![lighthouse validation](https://github.com/TimothyTedaldi/restaurant-css-framework/blob/master/img/maquette1.png "lighthouse validation")
 ![lighthouse validation](https://github.com/TimothyTedaldi/tim-berners-lee/image/lightousevalidated.png "lighthouse validation")
 ![lighthouse validation](https://github.com/TimothyTedaldi/tim-berners-lee/image/lightousevalidated.png "lighthouse validation")
 ![lighthouse validation](https://github.com/TimothyTedaldi/tim-berners-lee/image/lightousevalidated.png "lighthouse validation")
