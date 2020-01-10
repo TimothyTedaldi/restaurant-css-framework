@@ -7,11 +7,11 @@ composed of a total of 8 pages
 
 ## Mapping
 
-![lighthouse validation](https://github.com/TimothyTedaldi/restaurant-css-framework/blob/master/img/maquette1.png "lighthouse validation")
-![lighthouse validation](https://github.com/TimothyTedaldi/tim-berners-lee/image/lightousevalidated.png "lighthouse validation")
-![lighthouse validation](https://github.com/TimothyTedaldi/tim-berners-lee/image/lightousevalidated.png "lighthouse validation")
-![lighthouse validation](https://github.com/TimothyTedaldi/tim-berners-lee/image/lightousevalidated.png "lighthouse validation")
-![lighthouse validation](https://github.com/TimothyTedaldi/tim-berners-lee/image/lightousevalidated.png "lighthouse validation")
+![maquette 1](https://github.com/TimothyTedaldi/restaurant-css-framework/blob/master/img/maquette1.png "maquette 1")
+![maquette 2](https://github.com/TimothyTedaldi/restaurant-css-framework/blob/master/img/maquette2.png "maquette 2")
+![maquette 3](https://github.com/TimothyTedaldi/restaurant-css-framework/blob/master/img/maquette3.png "maquette 3")
+![maquette 4](https://github.com/TimothyTedaldi/restaurant-css-framework/blob/master/img/maquette4.png "maquette 4")
+![maquette 5](https://github.com/TimothyTedaldi/restaurant-css-framework/blob/master/img/maquette5.png "maquette 5")
 
 
 ## How was the work dispatch ?
